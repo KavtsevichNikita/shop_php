@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aliceblue
+}
+.header {
+    width: 100%;
+    display: flex;
+    font-size: 25px;
+    font-weight: 500;
+    background-color: #f2d6b2;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px;
+    margin: 20px;
+    background-color: lightcyan;
+    border: 2px solid #001480;
+    text-align: center;
+    width: 250px;
+}
+
+.photo {
+    width: 180px;
+    height: 140px;
+    margin-top: 15px;
+    box-shadow: #c2c2c2;
+    mix-blend-mode: multiply;
+}
+
+.catalog {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cost {
+    font-weight: bold;
+    margin: 15px;
+    font-size: 20px;
+}
+h2{
+    margin-top: 15px;
+    text-align: center;
+}
+
+.main {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.main h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 30px;
+    font-size: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+
+}
+
+.admin-main {
+    display: flex;
+    flex: 1;
+}
+
+.form-container {
+    background: white;
+    position: relative;
+    align-items: center;
+    min-width: 400px;
+}
+
+.admin-form {
+    position: fixed;
+    grid-gap: 30px;
+    display: grid;
+    left: 40px;
+    top: 300px;
+}
+
+.admin-form * {
+    font-size: 24px;
+}
+.autorization {
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    width: 150px;
+    height: 200px;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: italic;
+
+}
+.autorization h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+}
+.delete_from{
+    background: white;
+    color: black;
+    height: 40px;
+    font-weight: bold;
+}
+.update,
+.delete {
+    background: white;
+    color: black;
+    width: 90px;
+    height: 40px;
+    font-weight: bold;
+}
+.add{
+    background: white;
+    color: black;
+    width: 110px;
+    height: 40px;
+    font-weight: bold;
+}
+.login{
+    background: white;
+    color: black;
+    width: 110px;
+    height: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.delete:hover,
+.update:hover,
+.add:hover,
+.delete_from:hover,
+.login:hover {
+    color: white;
+    background: black;
+    cursor: pointer;
+}
+input{
+    margin-top: 5px;
+}
+input[type="submit"] {
+    padding: 5px;
+    outline: none;
+}
+
+.hidden {
+    display: none;
+}
+
+.bascket-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+form{
+    align-items: center;
+}
+
